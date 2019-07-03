@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800,800i&display=swap');
+
+
+body{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;
+    color:#000;
+}
+
+h1{
+	font-weight: 400;
+    color: #025E75;
+}
+
+h2,h3,h4,h5,h6,strong{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 700;
+    color: #63B2C1 ;
+    
+}
+
+.display-1{
+	font-weight: 700;
+	word-break: break-all;	
+	color: white;
+   
+}
+
+
+.display-1:nth-child(1){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(http://www.fau.uchile.cl/u/ImageServlet?idDocumento=142329&indice=0) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+  	-webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(2){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://culturacientifica.com/app/uploads/2015/06/Fire.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(3){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://www.surfertoday.com/images/stories/clouds.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(4){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://images-ahn.mdstrm.com/2015/12/16/160851_1_567130febbe26.jpg?d=700x407) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+
+a#especial{
+	font-style: italic;
+	font-weight: 400;
+	color:#025E75;
+	text-transform: lowercase;
+}
+
+a#especial:before{
+	content:"+ ";
+    
+}
+
+button.navbar-toggler{
+	border:none;
+
+}
+
+#colorabajo,#colorabajoo,#colorabajo1,#colorabajo2,#colorabajo3,#colorabajo4,strong{
+    background-color: #C2E5F2;
+
+}
